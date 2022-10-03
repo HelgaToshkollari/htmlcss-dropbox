@@ -44,11 +44,14 @@ nav{
 }
 .intro-section{
     background-color: lightblue;
-    margin-top: 70px;
+    margin-top: 50px;
+    
 }
 .intro-container{
     width: 1000px;
     margin: 0 auto;
+    position: relative;
+    top: 80px;
 }
 .intro-container h1{
     font-size: 4.5rem;
@@ -72,11 +75,66 @@ nav{
 .img-container img{
     width:100%
 }
-.subscriptions-section{
+.wrapper{
     width: 920px;
     margin: 0 auto;
+    padding: 4rem 0;
+}
+.sub-container{
+    padding-top: 6rem;
 }
 .col-container{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 3rem ;
+}
+.col{
+    border: 2px solid lightgray;
+    width: 30%;
+}
+.col-container ul{
+    list-style: none;
+    padding: 1.5rem 0;
+}
+.col-container ul li{
+    padding: .5rem 0;
+}
+
+.row-container{
+    display: flex;
+    border: 2px solid lightgray;
+    
+}
+.partner-container{
+    display: flex; 
+}
+
+.partner-info{
+    flex-basis: 100%;
+    padding: 4rem 3rem;
+}
+.partner-info p{
+    padding: 2rem 0;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: calc(100% / 3);
+    
+}
+.card-img-container{
+    width: 100%;
+    
+}
+.card-img-container img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.card p{
+    padding: 2rem 0;
 }
