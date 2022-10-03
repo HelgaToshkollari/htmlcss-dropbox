@@ -3,3 +3,61 @@
     padding: 0;
     margin: 0;
 }
+header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.logo-container{
+    display: inline-block;
+    
+}
+.logo-container img{
+    width: 100%;
+}
+.nav-container ul{
+    list-style: none;
+    display: inline-block;
+}
+.nav-container a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav-container ul li{
+    line-height: 40px;
+    display: inline-block;
+    padding: 1rem;
+  
+}
+.intro-container{
+    background-color: lightblue;
+    margin-top: 70px;
+}
+.intro{
+    width: 1000px;
+    margin: 0 auto;
+}
+.intro h1{
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+.sub-container{
+    display: flex;
+}
+.info-container{
+    flex-basis: 50%;
+}
+.img-container{
+}
+.img-container img{
+    width:100%
+}
