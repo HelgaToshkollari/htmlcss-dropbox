@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     position: fixed;
     top: 0;
@@ -15,6 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: white;
     
 }
 .logo-container{
@@ -35,29 +39,44 @@ nav{
 .nav-container ul li{
     line-height: 40px;
     display: inline-block;
-    padding: 1rem;
+    padding: .5rem 1rem;
   
 }
-.intro-container{
+.intro-section{
     background-color: lightblue;
     margin-top: 70px;
 }
-.intro{
+.intro-container{
     width: 1000px;
     margin: 0 auto;
 }
-.intro h1{
-    font-size: 4rem;
+.intro-container h1{
+    font-size: 4.5rem;
     padding: 2rem 0;
 }
-.sub-container{
+.intro{
     display: flex;
 }
 .info-container{
-    flex-basis: 50%;
+    flex-basis: 90%;
 }
-.img-container{
+.info-container p{
+    padding-bottom: 2rem ;
+}
+.btn-blue{
+    border: none;
+    padding: .5rem 1rem;
+    background-color: rgb(48, 85, 248);
+    color: white;
 }
 .img-container img{
     width:100%
+}
+.subscriptions-section{
+    width: 920px;
+    margin: 0 auto;
+}
+.col-container{
+    display: flex;
+    justify-content: space-between;
 }
