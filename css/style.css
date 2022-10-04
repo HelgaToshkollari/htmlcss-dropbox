@@ -27,6 +27,7 @@ nav{
 }
 .logo-container img{
     width: 100%;
+    display: block;
 }
 .nav-container ul{
     list-style: none;
@@ -47,7 +48,7 @@ nav{
     margin-top: 50px;
     
 }
-.intro-container{
+.maxi-container{
     width: 1000px;
     margin: 0 auto;
     position: relative;
@@ -71,11 +72,12 @@ nav{
     padding: .5rem 1rem;
     background-color: rgb(48, 85, 248);
     color: white;
+    margin: 1rem 0;
 }
 .img-container img{
     width:100%
 }
-.wrapper{
+.container{
     width: 920px;
     margin: 0 auto;
     padding: 4rem 0;
