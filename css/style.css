@@ -11,8 +11,7 @@ header{
     top: 0;
     z-index: 10;
     left: 0;
-    right: 0;
-    
+    right: 0;  
 }
 nav{
     display: flex;
@@ -55,12 +54,10 @@ nav{
     border: none;
     padding: .5rem 1rem;
     background-color: rgb(48, 85, 248);
-    color: white;
-    
+    color: white;   
 }
 .intro-section{
-    background-color: lightblue;
-      
+    background-color: lightblue;     
 }
 
 .maxi-container h1{
@@ -145,33 +142,9 @@ section{
 .card p{
     padding: 2rem 0;
 }
-.full-container{
-    width: 920px;
-    height: 300px;
-    display: flex;
-}
+.bg-blue{
+    background-color: lightblue;
 
-.square-container{
-    display: flex; 
-    width: calc(100% / 3)
-    
-}
-.square{
-    width: calc(100% / 2);
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.square img {
-    filter: invert();
-    width: 100%;
-}
-.sqr-green{
-    background-color: lightgreen;
-}
-.sqr-deep-red{
-    background-color: rgb(124, 8, 8);
-    
 }
 .sub-questions {
     display: flex;
@@ -183,5 +156,39 @@ section{
 .questions:hover .sub-text{
    display: block;
 }
+.full-container{
+    width: calc(100vw - 15px);
+    height: 500px;
+    display: flex;
+}
 
-
+.flex-container {
+    display: flex;
+    width: calc(100% / 3);
+}
+  
+.square{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.square-container{
+    width: 100%
+}
+.square img{
+    width: 100%;
+    filter: invert();
+    object-fit: contain;
+    display: block;
+}
+  
+.item {
+    border: 1px solid black;
+    background: rgb(71, 166, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    aspect-ratio: 1 / 1 ;
+}
