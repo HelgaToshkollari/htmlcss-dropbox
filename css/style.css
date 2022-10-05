@@ -57,7 +57,7 @@ nav{
     color: white;   
 }
 .intro-section{
-    background-color: lightblue;     
+    background-color: rgb(147, 195, 240);     
 }
 
 .maxi-container h1{
@@ -142,23 +142,11 @@ section{
 .card p{
     padding: 2rem 0;
 }
-.bg-blue{
-    background-color: lightblue;
 
-}
-.sub-questions {
-    display: flex;
-    justify-content: space-between;
-}
-.sub-text{
-    display: none;
-}
-.questions:hover .sub-text{
-   display: block;
-}
+
+
 .full-container{
-    width: calc(100vw - 15px);
-    height: 500px;
+    width:100%;
     display: flex;
 }
 
@@ -180,15 +168,94 @@ section{
     filter: invert();
     object-fit: contain;
     display: block;
+    padding: 2rem ;
 }
   
 .item {
-    border: 1px solid black;
-    background: rgb(71, 166, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 40%;
     aspect-ratio: 1 / 1 ;
+}
+.flex-container-center{
+    width: 33.33%;
+    aspect-ratio: 1 / 1 ;
+    
+}
+.square-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square-center img{
+    width: 100%;
+}
+
+
+
+.full-section{
+    padding-bottom: 0;
+}
+.bg-blue{
+    background-color: rgb(147, 195, 240);
+    
+}
+.sub-questions {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-text{
+    display: none;
+    padding: 2rem 0;
+}
+.questions:hover .sub-text{
+   display: block;
+}
+hr{
+    margin: 1rem 0;
+}
+
+.container h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+footer{
+    background-color: black;
+}
+footer .maxi-container{
+    top: 0;
+    
+}
+.maxi-ul-container{
+    display: flex;
+}
+.ul-container ul{
+    list-style: none;
+    padding: 1rem 0;
+}
+.ul-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+.ul-container li{
+    padding: .5rem 0;
+    
+}
+.ul-container{
+    color: white;
+    width: calc(100% / 5);
+    padding-bottom: 4rem;
+}
+.small-bar{
+    height: 2px;
+    width: 20%;
+    background-color: grey;
+   
+}
+.option-lang{
+    color: white;
 }
