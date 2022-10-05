@@ -96,7 +96,9 @@ section{
     padding: 1.5rem;
     
 }
-
+.col button{
+    width: 100%;
+}
 .fa-check{
   color: blue;
 }
@@ -121,18 +123,25 @@ section{
 .col-container ul li{
     padding: .5rem 0;
 }
-.row-container{
-    border: 2px solid lightgray; ;
-}
+
 .small-row-container{
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid lightgray;
-    
+}
+.grey-border{
+    border: 2px solid lightgray;
+}
+.row-right{
+    width: 25%; 
+}
+.row-left{
+    width: 50%;
 }
 .row-col-tittle{
     display: flex;
     justify-content: center;
+    padding: .5rem 0;
+    border-bottom: 2px solid lightgray; ;
 }
 .partner-container{
     display: flex; 
@@ -145,6 +154,19 @@ section{
 .partner-info p{
     padding: 2rem 0;
 }
+ 
+.btn-white{
+    border: 1px solid black;
+    background-color: white;
+}
+
+.banner-container a{
+    color: blue;
+}
+.banner{
+    width: 60%;
+}
+
 .card-container{
     display: flex;
     flex-wrap: wrap;
