@@ -117,11 +117,17 @@ section{
 }
 .col-container ul{
     list-style: none;
-    padding: 2rem 0;
+    padding: 1rem 0;
    
 }
+.col-container i{
+    margin-left: -1rem;
+    margin-right: .5rem;
+  
+}
 .col-container ul li{
-    padding: .5rem 0;
+    padding: 1rem 0;
+    padding-left: 1rem;
 }
 
 .small-row-container{
@@ -191,7 +197,6 @@ section{
 }
 
 
-
 .full-container{
     width:100%;
     display: flex;
@@ -228,6 +233,7 @@ section{
 .flex-container-center{
     width: 33.33%;
     aspect-ratio: 1 / 1 ;
+    overflow: auto;
     
 }
 .square-center{
@@ -239,7 +245,6 @@ section{
 }
 .square-center img{
     width: 60%;
-   
 }
 
 
