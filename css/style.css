@@ -233,13 +233,14 @@ section{
 .square-center{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+   
 }
 .square-center img{
-    width: 100%;
+    width: 60%;
+   
 }
-
 
 
 .full-section{
